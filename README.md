@@ -17,6 +17,14 @@ Este projeto implementa um sistema completo de **deduplicação de texto** — d
 
 ---
 
+## Estrutura
+- `src/`: função em Python 
+- `notebooks/`: função em Jupyter Notebook
+- `data/input/`: documentos PDF de entrada
+- `data/output/`: resultados gerados em JSON
+
+---
+
 ## Tecnologias Utilizadas
 
 | Biblioteca | Função |
