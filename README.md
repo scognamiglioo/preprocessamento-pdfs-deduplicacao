@@ -11,7 +11,7 @@ Este projeto implementa um sistema completo de **deduplicação de texto** — d
 -  **Pré-processamento** e normalização textual
 -  **Deduplicação exata** (comparação direta)
 -  **Deduplicação fuzzy/semântica** usando:
-  - Similaridade de Cosseno com **TF-IDF embeddings**
+  - Similaridade de Cosseno: **TF-IDF embeddings**
 -  **Exportação em JSON** dos resultados
 
 ---
