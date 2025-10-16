@@ -72,7 +72,7 @@ def preprocess_text(self, text: str) -> str:
                 seen_hashes.add(content_hash)
                 unique_pages.append(page)
             else:
-                print(f"    🗑️ Removendo página {page['page']} (duplicata exata)")
+                print(f" Removendo página {page['page']} (duplicata exata)")
 
         return unique_pages
 
@@ -104,4 +104,5 @@ def preprocess_text(self, text: str) -> str:
 
         except Exception as e:
             print(f"  Erro na deduplicação fuzzy: {e}")
+
             return pages_data  # Retorna todas se houver erro
