@@ -61,7 +61,7 @@ Após a normalização, trechos **idênticos** são removidos.
 
 ### Deduplicação Fuzzy / Semântica (Fase 2)
 
-Para eliminar duplicatas **parecidas, mas não idênticas**, o sistema utiliza duas abordagens:
+Para eliminar duplicatas **parecidas, mas não idênticas**, o sistema utiliza da seguinte abordagem:
 
 #### 🔹 A. Similaridade de Cosseno (com TF-IDF Embeddings)
 
